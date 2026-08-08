@@ -1,0 +1,77 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--spacing-3xl) var(--spacing-md);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--color-dark-gray);
+  margin-bottom: var(--spacing-3xl);
+  font-size: 1.1rem;
+}
+
+.faqSection {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--color-light-gray);
+  padding-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+}
+
+.faqItem {
+  margin-bottom: var(--spacing-lg);
+}
+
+.question {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-black);
+}
+
+.answer {
+  color: var(--color-dark-gray);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-xs);
+}
+
+.list {
+  color: var(--color-dark-gray);
+  margin-bottom: var(--spacing-xs);
+  padding-left: var(--spacing-xl);
+  line-height: 1.6;
+}
+
+.list li {
+  margin-bottom: 4px;
+}
+
+.supportBox {
+  margin-top: var(--spacing-3xl);
+  padding: var(--spacing-xl);
+  background-color: var(--color-light-gray);
+  border-radius: var(--border-radius-md);
+  text-align: center;
+}
+
+.supportBox h3 {
+  font-size: 1.25rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.supportBox p {
+  color: var(--color-dark-gray);
+  margin-bottom: 4px;
+}
